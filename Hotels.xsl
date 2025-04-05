@@ -17,7 +17,7 @@
 						<h2>
 							<xsl:value-of select="Name"/>
 							<span class="rating">
-								(Rating: <xsl:value-of select="@_Rating"/>)
+								(Rating: <xsl:value-of select="@Rating"/>)
 							</span>
 						</h2>
 						<h3>Phones:</h3>
@@ -35,8 +35,8 @@
 							<xsl:value-of select="Address/City"/>,
 							<xsl:value-of select="Address/State"/>,
 							<xsl:value-of select="Address/Zip"/>
-							<xsl:if test="Address/@_NearestAirport">
-								<br/>Nearest Airport: <xsl:value-of select="Address/@_NearestAirport"/>
+							<xsl:if test="Address/@NearstAirport">
+								<br/>Nearest Airport: <xsl:value-of select="Address/@NearstAirport"/>
 							</xsl:if>
 						</p>
 					</div>
