@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotel>
-	<!-- Error 1: Root should be "Hotels" -->
-	<!-- Hotel 1: Missing _Rating (Error 2) -->
+	<!-- Root should be "Hotels-->
+	<!-- Hotel 1: Missing Rating -->
 	<Hotel>
 		<Name>Error Hotel 1</Name>
-		<!-- Error 3: No Phone elements -->
+		<!-- no Phone elements -->
 		<Address _NearestAirport="Test Airport">
 			<Number>123</Number>
 			<Street>Error Street</Street>
@@ -13,13 +13,13 @@
 			<Zip>00000</Zip>
 		</Address>
 	</Hotel>
-	<!-- Hotel 2: Two Names (Error 5) and Unclosed Address (Error 4) -->
+	<!-- Hotel 2: Two Names and Unclosed Address-->
 	<Hotel _Rating="3.5">
 		<Name>Duplicate Name Hotel</Name>
 		<Name>Error: Two Names</Name>
 		<Phone>123-456-7890</Phone>
 		<Address>
-			<!-- Error 4: Missing closing tag -->
+			<!--Missing closing tag -->
 			<Number>456</Number>
 			<Street>Another Error Street</Street>
 			<City>Another Error City</City>
