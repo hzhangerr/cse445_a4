@@ -11,7 +11,6 @@
           .address { margin-top: 0.5rem; color: #666; }
           h2 { color: #3498db; margin-bottom: 0.5rem; }
           ul { list-style-type: none; padding-left: 0; }
-          li:before { content: "📞 "; }
         </style>
       </head>
       <body>
