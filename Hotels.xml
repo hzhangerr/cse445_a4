@@ -4,7 +4,7 @@
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 	<!-- Sample Hotel 1 -->
 	<Hotel Rating="4.2">
-		<Name>Westin</Name>
+		<Name>Westin</Name> 
 		<Phone>800-937-8461</Phone>
 		<Phone>480-968-8885</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -15,6 +15,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 2 -->
 	<Hotel Rating="3.5">
 		<Name>La Quinta Inn and Suites</Name>
 		<Phone>480-967-4465</Phone>
@@ -26,6 +27,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 3 -->
 	<Hotel Rating="4.5">
 		<Name>Hyatt Place</Name>
 		<Phone>480-969-8200</Phone>
@@ -37,6 +39,7 @@
 			<Zip>85201</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 4 -->
 	<Hotel Rating="4.2">
 		<Name>SpringHill Suites</Name>
 		<Phone>480-968-8222</Phone>
@@ -48,6 +51,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 5 -->
 	<Hotel Rating="4.1">
 		<Name>Sonesta Select</Name>
 		<Phone>480-966-2800</Phone>
@@ -59,6 +63,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 6 -->
 	<Hotel Rating="4.5">
 		<Name>Omni Hotel</Name>
 		<Phone>602-794-8600</Phone>
@@ -70,6 +75,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 7 -->
 	<Hotel Rating="4.1">
 		<Name>DoubleTree by Hilton</Name>
 		<Phone>480-967-1441</Phone>
@@ -81,6 +87,7 @@
 			<Zip>85282</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 8 -->
 	<Hotel Rating="4.3">
 		<Name>Canopy by Hilton</Name>
 		<Phone>480-968-6800</Phone>
@@ -92,6 +99,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 9 -->
 	<Hotel Rating="4.4">
 		<Name>AC Hotel</Name>
 		<Phone>480-642-6140</Phone>
@@ -103,6 +111,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
+	<!-- Sample Hotel 10 -->
 	<Hotel Rating="4.2">
 		<Name>Graduate by Hilton</Name>
 		<Phone>480-967-9431</Phone>
@@ -114,5 +123,4 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-	<!-- Add 9 more hotels here -->
 </Hotels>
